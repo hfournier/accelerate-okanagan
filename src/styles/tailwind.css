@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@property --color-primary {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #cd0e2c;
+	}
+	@property --color-light-step {
+		syntax: "<percentage>";
+		inherits: false;
+		initial-value: 10.5%;
+	}
+
+	.scrollable::-webkit-scrollbar {
+		@apply h-2 w-2 bg-neutral-100 dark:bg-neutral-800;
+	}
+	.scrollable::-webkit-scrollbar-track {
+		@apply my-1 rounded-full bg-neutral-100 dark:bg-neutral-800;
+	}
+	.scrollable::-webkit-scrollbar-thumb {
+		@apply rounded-full bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-600 dark:hover:bg-neutral-500;
+	}
+	.dark .scrollable::-webkit-scrollbar {
+		@apply bg-neutral-700;
+	}
+	.dark .scrollable::-webkit-scrollbar-track {
+		@apply bg-neutral-700;
+	}
+	.dark .scrollable::-webkit-scrollbar-thumb {
+		@apply bg-neutral-800 hover:bg-neutral-700;
+	}
+	@supports (scrollbar-color: darkgray lightgray) {
+		.scrollable {
+			scrollbar-width: thin;
+			scrollbar-color: theme(colors.neutral.300) theme(colors.neutral.100);
+		}
+		html[data-theme="dark"].scrollable,
+		[data-theme="dark"] .scrollable,
+		.dark .scrollable {
+			scrollbar-color: theme(colors.neutral.600) theme(colors.neutral.800);
+		}
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-playfair;
+	}
+}

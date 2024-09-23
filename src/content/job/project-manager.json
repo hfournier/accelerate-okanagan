@@ -1,0 +1,181 @@
+{
+	"id": 6069,
+	"createdAt": "2024-07-23T13:28:50",
+	"date_gmt": "2024-07-23T20:28:50",
+	"guid": { "rendered": "https://accelerateokanagan.com/job/project-manager/" },
+	"modifiedAt": "2024-07-23T13:28:50",
+	"modified_gmt": "2024-07-23T20:28:50",
+	"slug": "project-manager",
+	"draft": false,
+	"type": "job",
+	"link": "https://accelerateokanagan.com/job/project-manager/",
+	"title": "Project Manager",
+	"excerpt": { "rendered": "", "protected": false },
+	"authorId": 531,
+	"parent": 0,
+	"template": "",
+	"industry": ["website-development"],
+	"location": ["kelowna"],
+	"experience": ["3-5-years"],
+	"employmentType": ["full-time"],
+	"class_list": [
+		"post-6069",
+		"job",
+		"type-job",
+		"status-publish",
+		"hentry",
+		"industry-website-development",
+		"location-kelowna",
+		"experience-3-5-years",
+		"employment-type-full-time"
+	],
+	"acf": [],
+	"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.4 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Project Manager | Jobs | Accelerate Okanagan</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://accelerateokanagan.com/job/project-manager/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Project Manager | Jobs | Accelerate Okanagan\" />\n<meta property=\"og:url\" content=\"https://accelerateokanagan.com/job/project-manager/\" />\n<meta property=\"og:site_name\" content=\"Accelerate Okanagan\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/AccelerateOkanagan/\" />\n<meta property=\"og:image\" content=\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"537\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@accelerateok\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://accelerateokanagan.com/job/project-manager/\",\"url\":\"https://accelerateokanagan.com/job/project-manager/\",\"name\":\"Project Manager | Jobs | Accelerate Okanagan\",\"isPartOf\":{\"@id\":\"https://accelerateokanagan.com/#website\"},\"datePublished\":\"2024-07-23T20:28:50+00:00\",\"dateModified\":\"2024-07-23T20:28:50+00:00\",\"breadcrumb\":{\"@id\":\"https://accelerateokanagan.com/job/project-manager/#breadcrumb\"},\"inLanguage\":\"en-CA\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://accelerateokanagan.com/job/project-manager/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://accelerateokanagan.com/job/project-manager/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://accelerateokanagan.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Project Manager\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://accelerateokanagan.com/#website\",\"url\":\"https://accelerateokanagan.com/\",\"name\":\"Accelerate Okanagan\",\"description\":\"Tech Business Accelerator Programs\",\"publisher\":{\"@id\":\"https://accelerateokanagan.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://accelerateokanagan.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-CA\"},{\"@type\":\"Organization\",\"@id\":\"https://accelerateokanagan.com/#organization\",\"name\":\"Accelerate Okanagan\",\"url\":\"https://accelerateokanagan.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-CA\",\"@id\":\"https://accelerateokanagan.com/#/schema/logo/image/\",\"url\":\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\",\"contentUrl\":\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\",\"width\":1200,\"height\":537,\"caption\":\"Accelerate Okanagan\"},\"image\":{\"@id\":\"https://accelerateokanagan.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/AccelerateOkanagan/\",\"https://x.com/accelerateok\",\"https://www.instagram.com/accelerateokanagan/\",\"https://ca.linkedin.com/company/accelerate-okanagan\",\"https://www.youtube.com/channel/UCBknJ2HAKnB9nY9XuOM25Ug\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+	"yoast_head_json": {
+		"title": "Project Manager | Jobs | Accelerate Okanagan",
+		"robots": {
+			"index": "index",
+			"follow": "follow",
+			"max-snippet": "max-snippet:-1",
+			"max-image-preview": "max-image-preview:large",
+			"max-video-preview": "max-video-preview:-1"
+		},
+		"canonical": "https://accelerateokanagan.com/job/project-manager/",
+		"og_locale": "en_US",
+		"og_type": "article",
+		"og_title": "Project Manager | Jobs | Accelerate Okanagan",
+		"og_url": "https://accelerateokanagan.com/job/project-manager/",
+		"og_site_name": "Accelerate Okanagan",
+		"article_publisher": "https://www.facebook.com/AccelerateOkanagan/",
+		"og_image": [
+			{
+				"width": 1200,
+				"height": 537,
+				"url": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+				"type": "image/png"
+			}
+		],
+		"twitter_card": "summary_large_image",
+		"twitter_site": "@accelerateok",
+		"schema": {
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "WebPage",
+					"@id": "https://accelerateokanagan.com/job/project-manager/",
+					"url": "https://accelerateokanagan.com/job/project-manager/",
+					"name": "Project Manager | Jobs | Accelerate Okanagan",
+					"isPartOf": { "@id": "https://accelerateokanagan.com/#website" },
+					"datePublished": "2024-07-23T20:28:50+00:00",
+					"dateModified": "2024-07-23T20:28:50+00:00",
+					"breadcrumb": { "@id": "https://accelerateokanagan.com/job/project-manager/#breadcrumb" },
+					"inLanguage": "en-CA",
+					"potentialAction": [
+						{
+							"@type": "ReadAction",
+							"target": ["https://accelerateokanagan.com/job/project-manager/"]
+						}
+					]
+				},
+				{
+					"@type": "BreadcrumbList",
+					"@id": "https://accelerateokanagan.com/job/project-manager/#breadcrumb",
+					"itemListElement": [
+						{
+							"@type": "ListItem",
+							"position": 1,
+							"name": "Home",
+							"item": "https://accelerateokanagan.com/"
+						},
+						{ "@type": "ListItem", "position": 2, "name": "Project Manager" }
+					]
+				},
+				{
+					"@type": "WebSite",
+					"@id": "https://accelerateokanagan.com/#website",
+					"url": "https://accelerateokanagan.com/",
+					"name": "Accelerate Okanagan",
+					"description": "Tech Business Accelerator Programs",
+					"publisher": { "@id": "https://accelerateokanagan.com/#organization" },
+					"potentialAction": [
+						{
+							"@type": "SearchAction",
+							"target": {
+								"@type": "EntryPoint",
+								"urlTemplate": "https://accelerateokanagan.com/?s={search_term_string}"
+							},
+							"query-input": {
+								"@type": "PropertyValueSpecification",
+								"valueRequired": true,
+								"valueName": "search_term_string"
+							}
+						}
+					],
+					"inLanguage": "en-CA"
+				},
+				{
+					"@type": "Organization",
+					"@id": "https://accelerateokanagan.com/#organization",
+					"name": "Accelerate Okanagan",
+					"url": "https://accelerateokanagan.com/",
+					"logo": {
+						"@type": "ImageObject",
+						"inLanguage": "en-CA",
+						"@id": "https://accelerateokanagan.com/#/schema/logo/image/",
+						"url": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+						"contentUrl": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+						"width": 1200,
+						"height": 537,
+						"caption": "Accelerate Okanagan"
+					},
+					"image": { "@id": "https://accelerateokanagan.com/#/schema/logo/image/" },
+					"sameAs": [
+						"https://www.facebook.com/AccelerateOkanagan/",
+						"https://x.com/accelerateok",
+						"https://www.instagram.com/accelerateokanagan/",
+						"https://ca.linkedin.com/company/accelerate-okanagan",
+						"https://www.youtube.com/channel/UCBknJ2HAKnB9nY9XuOM25Ug"
+					]
+				}
+			]
+		}
+	},
+	"_links": {
+		"self": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/job/6069" }],
+		"collection": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/job" }],
+		"about": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/types/job" }],
+		"author": [
+			{ "embeddable": true, "href": "https://accelerateokanagan.com/wp-json/wp/v2/users/531" }
+		],
+		"version-history": [
+			{ "count": 2, "href": "https://accelerateokanagan.com/wp-json/wp/v2/job/6069/revisions" }
+		],
+		"predecessor-version": [
+			{ "id": 6071, "href": "https://accelerateokanagan.com/wp-json/wp/v2/job/6069/revisions/6071" }
+		],
+		"wp:attachment": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/media?parent=6069" }],
+		"wp:term": [
+			{
+				"taxonomy": "industry",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/industry?post=6069"
+			},
+			{
+				"taxonomy": "location",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/location?post=6069"
+			},
+			{
+				"taxonomy": "experience",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/experience?post=6069"
+			},
+			{
+				"taxonomy": "employment-type",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/employment-type?post=6069"
+			}
+		],
+		"curies": [{ "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }]
+	}
+}

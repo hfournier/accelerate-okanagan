@@ -1,16 +1,127 @@
 ---
+import { getImage, Image } from "astro:assets"
+import { Icon } from "astro-icon/components"
+import BaseLayout from "../layouts/BaseLayout.astro"
+import brealake from "@assets/brealake-1024x1024.png"
+import global_feature from "@assets/global-feature.jpg"
+import ButtonLink from "@components/ButtonLink.astro"
+import Jobs from "@components/Jobs.astro"
 
+const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout>
+	<main>
+		<section class="mx-auto my-40 grid max-w-[1070px] grid-cols-3 gap-12">
+			<div class="flex flex-col gap-6">
+				<h2 class="text-5xl">Programs</h2>
+				<div class="h-[3px] w-8 bg-primary"></div>
+				<p class="text-neutral-500">
+					We provide mentorship and coaching for startups and growth-stage companies. Each stage of
+					the entrepreneurial process demands a different set of tools and we are constantly
+					iterating to meet these needs.
+				</p>
+				<p class="text-sm font-semibold uppercase">
+					Accelerate Your Growth<Icon
+						class="inline-block size-4 text-primary"
+						name="mdi:chevron-double-right"
+					/>
+				</p>
+			</div>
+			<div class="flex flex-col gap-6">
+				<h2 class="text-5xl">Membership</h2>
+				<div class="h-[3px] w-8 bg-primary"></div>
+				<p class="text-neutral-500">
+					Together we are growing a thriving entrepreneurial ecosystem that will inspire innovation
+					and transform our community. Join us and plug into #OKGNtech with Accelerate Okanagan’s
+					membership.
+				</p>
+				<p class="text-sm font-semibold uppercase">
+					Join the Network<Icon
+						class="inline-block size-4 text-primary"
+						name="mdi:chevron-double-right"
+					/>
+				</p>
+			</div>
+			<div class="flex flex-col gap-6">
+				<h2 class="text-5xl">Articles</h2>
+				<div class="h-[3px] w-8 bg-primary"></div>
+				<p class="text-neutral-500">
+					Celebrating local entrepreneurs, spotlights on mentors, program details, press releases
+					and news. There is always something happening in the Okanagan’s tech community. Stay tuned
+					in with our blog.
+				</p>
+				<p class="text-sm font-semibold uppercase">
+					Read the Blog<Icon
+						class="inline-block size-4 text-primary"
+						name="mdi:chevron-double-right"
+					/>
+				</p>
+			</div>
+		</section>
+		<section class="mx-auto my-40 flex max-w-[1070px]">
+			<div class="flex w-1/2 flex-col gap-8 bg-neutral-100 p-12">
+				<h2 class="text-5xl">Okanagan Tech Economic Impact</h2>
+				<div class="h-[3px] w-8 bg-primary"></div>
+				<p>
+					The results from the latest Economic Impact Study are in. The Okanagan tech sector is made
+					up of 787 tech companies that are supporting 32,645 jobs and contributing a remarkable
+					$4.98 Billion economic impact, underscoring its vital role in the BC economy.
+				</p>
+				<ButtonLink href="#" size="lg">Read All About It</ButtonLink>
+			</div>
+			<div class="relative w-1/2">
+				<Image class="w-full object-cover" src={brealake} alt="brealake" />
+				<svg
+					class="absolute inset-y-0 left-0 h-full fill-neutral-100"
+					viewBox="0 0 80.5 580"
+					xmlns="http://www.w3.org/2000/svg"
+					><path d="M80.5,0H0v580h80.5C32.4,494.2,5,395.3,5,290S32.4,85.8,80.5,0z"></path></svg
+				>
+			</div>
+		</section>
+		<section class="mx-auto my-40 flex max-w-[1070px]">
+			<div class="flex w-1/3 flex-col gap-7">
+				<h2 class="text-7xl">#OKGNtech is hiring.</h2>
+				<div class="h-[3px] w-8 bg-primary"></div>
+				<p class="leading-snug">
+					Find your dream job. Our Job Board showcases available positions from businesses within
+					the Okanagan tech community. From technical and non-technical skill sets; to a range of
+					entry-level and C-suite; to co-op, short-term, long-term, and contract employment, there's
+					something for you.
+				</p>
+				<ButtonLink href="#" size="lg">View the Job Board</ButtonLink>
+			</div>
+			<div class="w-2/3">
+				<Jobs />
+			</div>
+		</section>
+		<div class="mt-40 bg-neutral-100">
+			<section
+				class="mx-auto flex max-w-[1440px] bg-[size:75%] bg-left bg-no-repeat"
+				style=`background-image: url('${bgGlobalFeature.src}');`>
+				<div class="flex w-1/2 flex-col gap-8 bg-primary/90 p-24">
+					<h2 class="text-[2.75rem] leading-tight text-white">
+						Plug into the Okanagan's tech community with Accelerate Okanagan's membership.
+					</h2>
+					<div class="h-[3px] w-8 bg-neutral-900"></div>
+					<a
+						class="flex items-center gap-1.5 text-xl font-semibold uppercase text-white hover:text-primary"
+						href="#"
+						>Join Us
+						<Icon class="size-6 text-white" name="mdi:chevron-double-right" />
+					</a>
+				</div>
+				<div class="relative w-1/2">
+					<Image class="h-full w-full object-cover" src={global_feature} alt="Global Feature" />
+					<svg
+						class="absolute inset-y-0 left-0 h-full fill-primary/90"
+						viewBox="0 0 80.5 580"
+						xmlns="http://www.w3.org/2000/svg"
+						><path d="M80.5,0H0v580h80.5C32.4,494.2,5,395.3,5,290S32.4,85.8,80.5,0z"></path></svg
+					>
+				</div>
+			</section>
+		</div>
+	</main>
+</BaseLayout>

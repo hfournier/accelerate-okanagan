@@ -1,0 +1,189 @@
+{
+	"id": 37216,
+	"createdAt": "2024-07-24T15:02:05",
+	"date_gmt": "2024-07-24T22:02:05",
+	"guid": { "rendered": "https://accelerateokanagan.com/job/account-executive-2/" },
+	"modifiedAt": "2024-07-31T09:51:42",
+	"modified_gmt": "2024-07-31T16:51:42",
+	"slug": "account-executive-2",
+	"draft": false,
+	"type": "job",
+	"link": "https://accelerateokanagan.com/job/account-executive-2/",
+	"title": "Account Executive",
+	"excerpt": { "rendered": "", "protected": false },
+	"author": "tlc-solutions",
+	"parent": 0,
+	"template": "",
+	"industry": ["service-provider"],
+	"location": ["kelowna"],
+	"experience": ["0-2-years"],
+	"employmentType": ["full-time"],
+	"class_list": [
+		"post-37216",
+		"job",
+		"type-job",
+		"status-publish",
+		"hentry",
+		"industry-service-provider",
+		"location-kelowna",
+		"experience-0-2-years",
+		"employment-type-full-time"
+	],
+	"acf": [],
+	"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.4 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Account Executive | Jobs | Accelerate Okanagan</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://accelerateokanagan.com/job/account-executive-2/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Account Executive | Jobs | Accelerate Okanagan\" />\n<meta property=\"og:url\" content=\"https://accelerateokanagan.com/job/account-executive-2/\" />\n<meta property=\"og:site_name\" content=\"Accelerate Okanagan\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/AccelerateOkanagan/\" />\n<meta property=\"article:modified_time\" content=\"2024-07-31T16:51:42+00:00\" />\n<meta property=\"og:image\" content=\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"537\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@accelerateok\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://accelerateokanagan.com/job/account-executive-2/\",\"url\":\"https://accelerateokanagan.com/job/account-executive-2/\",\"name\":\"Account Executive | Jobs | Accelerate Okanagan\",\"isPartOf\":{\"@id\":\"https://accelerateokanagan.com/#website\"},\"datePublished\":\"2024-07-24T22:02:05+00:00\",\"dateModified\":\"2024-07-31T16:51:42+00:00\",\"breadcrumb\":{\"@id\":\"https://accelerateokanagan.com/job/account-executive-2/#breadcrumb\"},\"inLanguage\":\"en-CA\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://accelerateokanagan.com/job/account-executive-2/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://accelerateokanagan.com/job/account-executive-2/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://accelerateokanagan.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Account Executive\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://accelerateokanagan.com/#website\",\"url\":\"https://accelerateokanagan.com/\",\"name\":\"Accelerate Okanagan\",\"description\":\"Tech Business Accelerator Programs\",\"publisher\":{\"@id\":\"https://accelerateokanagan.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://accelerateokanagan.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-CA\"},{\"@type\":\"Organization\",\"@id\":\"https://accelerateokanagan.com/#organization\",\"name\":\"Accelerate Okanagan\",\"url\":\"https://accelerateokanagan.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-CA\",\"@id\":\"https://accelerateokanagan.com/#/schema/logo/image/\",\"url\":\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\",\"contentUrl\":\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\",\"width\":1200,\"height\":537,\"caption\":\"Accelerate Okanagan\"},\"image\":{\"@id\":\"https://accelerateokanagan.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/AccelerateOkanagan/\",\"https://x.com/accelerateok\",\"https://www.instagram.com/accelerateokanagan/\",\"https://ca.linkedin.com/company/accelerate-okanagan\",\"https://www.youtube.com/channel/UCBknJ2HAKnB9nY9XuOM25Ug\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+	"yoast_head_json": {
+		"title": "Account Executive | Jobs | Accelerate Okanagan",
+		"robots": {
+			"index": "index",
+			"follow": "follow",
+			"max-snippet": "max-snippet:-1",
+			"max-image-preview": "max-image-preview:large",
+			"max-video-preview": "max-video-preview:-1"
+		},
+		"canonical": "https://accelerateokanagan.com/job/account-executive-2/",
+		"og_locale": "en_US",
+		"og_type": "article",
+		"og_title": "Account Executive | Jobs | Accelerate Okanagan",
+		"og_url": "https://accelerateokanagan.com/job/account-executive-2/",
+		"og_site_name": "Accelerate Okanagan",
+		"article_publisher": "https://www.facebook.com/AccelerateOkanagan/",
+		"article_modified_time": "2024-07-31T16:51:42+00:00",
+		"og_image": [
+			{
+				"width": 1200,
+				"height": 537,
+				"url": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+				"type": "image/png"
+			}
+		],
+		"twitter_card": "summary_large_image",
+		"twitter_site": "@accelerateok",
+		"schema": {
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "WebPage",
+					"@id": "https://accelerateokanagan.com/job/account-executive-2/",
+					"url": "https://accelerateokanagan.com/job/account-executive-2/",
+					"name": "Account Executive | Jobs | Accelerate Okanagan",
+					"isPartOf": { "@id": "https://accelerateokanagan.com/#website" },
+					"datePublished": "2024-07-24T22:02:05+00:00",
+					"dateModified": "2024-07-31T16:51:42+00:00",
+					"breadcrumb": {
+						"@id": "https://accelerateokanagan.com/job/account-executive-2/#breadcrumb"
+					},
+					"inLanguage": "en-CA",
+					"potentialAction": [
+						{
+							"@type": "ReadAction",
+							"target": ["https://accelerateokanagan.com/job/account-executive-2/"]
+						}
+					]
+				},
+				{
+					"@type": "BreadcrumbList",
+					"@id": "https://accelerateokanagan.com/job/account-executive-2/#breadcrumb",
+					"itemListElement": [
+						{
+							"@type": "ListItem",
+							"position": 1,
+							"name": "Home",
+							"item": "https://accelerateokanagan.com/"
+						},
+						{ "@type": "ListItem", "position": 2, "name": "Account Executive" }
+					]
+				},
+				{
+					"@type": "WebSite",
+					"@id": "https://accelerateokanagan.com/#website",
+					"url": "https://accelerateokanagan.com/",
+					"name": "Accelerate Okanagan",
+					"description": "Tech Business Accelerator Programs",
+					"publisher": { "@id": "https://accelerateokanagan.com/#organization" },
+					"potentialAction": [
+						{
+							"@type": "SearchAction",
+							"target": {
+								"@type": "EntryPoint",
+								"urlTemplate": "https://accelerateokanagan.com/?s={search_term_string}"
+							},
+							"query-input": {
+								"@type": "PropertyValueSpecification",
+								"valueRequired": true,
+								"valueName": "search_term_string"
+							}
+						}
+					],
+					"inLanguage": "en-CA"
+				},
+				{
+					"@type": "Organization",
+					"@id": "https://accelerateokanagan.com/#organization",
+					"name": "Accelerate Okanagan",
+					"url": "https://accelerateokanagan.com/",
+					"logo": {
+						"@type": "ImageObject",
+						"inLanguage": "en-CA",
+						"@id": "https://accelerateokanagan.com/#/schema/logo/image/",
+						"url": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+						"contentUrl": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+						"width": 1200,
+						"height": 537,
+						"caption": "Accelerate Okanagan"
+					},
+					"image": { "@id": "https://accelerateokanagan.com/#/schema/logo/image/" },
+					"sameAs": [
+						"https://www.facebook.com/AccelerateOkanagan/",
+						"https://x.com/accelerateok",
+						"https://www.instagram.com/accelerateokanagan/",
+						"https://ca.linkedin.com/company/accelerate-okanagan",
+						"https://www.youtube.com/channel/UCBknJ2HAKnB9nY9XuOM25Ug"
+					]
+				}
+			]
+		}
+	},
+	"_links": {
+		"self": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/job/37216" }],
+		"collection": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/job" }],
+		"about": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/types/job" }],
+		"author": [
+			{ "embeddable": true, "href": "https://accelerateokanagan.com/wp-json/wp/v2/users/2276" }
+		],
+		"version-history": [
+			{ "count": 4, "href": "https://accelerateokanagan.com/wp-json/wp/v2/job/37216/revisions" }
+		],
+		"predecessor-version": [
+			{
+				"id": 37528,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/job/37216/revisions/37528"
+			}
+		],
+		"wp:attachment": [
+			{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/media?parent=37216" }
+		],
+		"wp:term": [
+			{
+				"taxonomy": "industry",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/industry?post=37216"
+			},
+			{
+				"taxonomy": "location",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/location?post=37216"
+			},
+			{
+				"taxonomy": "experience",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/experience?post=37216"
+			},
+			{
+				"taxonomy": "employment-type",
+				"embeddable": true,
+				"href": "https://accelerateokanagan.com/wp-json/wp/v2/employment-type?post=37216"
+			}
+		],
+		"curies": [{ "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }]
+	}
+}

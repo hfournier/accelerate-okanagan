@@ -1,0 +1,113 @@
+---
+import { Image } from "astro:assets"
+import type { CollectionEntry } from "astro:content"
+import { getEntry } from "astro:content"
+import { getCollection } from "astro:content"
+import { Icon } from "astro-icon/components"
+
+const jobs = (await getCollection("job", (job) => job.data.author)).sort(
+	(a, b) => b.data.createdAt.valueOf() - a.data.createdAt.valueOf()
+)
+
+const getAuthor = async (job: CollectionEntry<"job">) => {
+	if (job.data.author) {
+		return (await getEntry(job.data.author)).data
+	} else {
+		return null
+	}
+}
+
+const getLocation = async (job: CollectionEntry<"job">) => {
+	if (job.data.location && job.data.location.length > 0) {
+		return (await getEntry(job.data.location[0])).data
+	} else {
+		return null
+	}
+}
+---
+
+<div class="flex max-h-[445px] pl-16">
+	<div class="flex flex-col gap-4">
+		<button
+			class="rounded-full border-2 border-neutral-100 p-3 text-primary transition-colors duration-200 enabled:hover:border-primary enabled:hover:bg-primary enabled:hover:text-white disabled:text-neutral-100"
+			id="btnJobsUp"
+			type="button"
+			disabled>
+			<Icon class="size-8" name="mdi:chevron-up" />
+		</button>
+		<button
+			class="rounded-full border-2 border-neutral-100 p-3 text-primary transition-colors duration-200 enabled:hover:border-primary enabled:hover:bg-primary enabled:hover:text-white disabled:text-neutral-100"
+			id="btnJobsDown"
+			type="button">
+			<Icon class="size-8" name="mdi:chevron-down" />
+		</button>
+	</div>
+	<ul class="flex flex-col gap-7 divide-y divide-neutral-200 overflow-y-hidden px-4" id="jobsList">
+		{
+			jobs.map((job) => (
+				<li class="">
+					<a href={`/job/${job.id}`} class="group flex gap-8 pt-6">
+						<div class="grid grid-cols-[150px_1fr] gap-8">
+							{getAuthor(job).then((author) => (
+								<>
+									<Image
+										class="h-full max-h-[70px] w-full max-w-fit place-self-center object-contain"
+										src={author?.logo!}
+										alt={author?.name!}
+									/>
+									<div class="flex grow flex-col gap-2">
+										<div class="font-semibold uppercase leading-tight group-hover:text-primary">
+											{job.data.title}
+										</div>
+										<div class="flex items-center gap-4 text-sm font-semibold uppercase text-neutral-500 group-hover:text-primary">
+											<span class="">{author?.name}</span>
+											{getLocation(job).then(
+												(location) =>
+													location && (
+														<>
+															<span class="text-primary">|</span>
+															<div class="flex gap-2">
+																<Icon class="flex size-4 gap-4" name="mdi:map-marker" />
+																<div class="group-hover:text-primary">{location?.name}</div>
+															</div>
+														</>
+													)
+											)}
+										</div>
+										<time
+											class="pt-2 text-[0.75rem] text-neutral-500 group-hover:text-primary"
+											datetime={job.data.createdAt.toISOString()}>
+											{job.data.createdAt.toLocaleDateString(undefined, {
+												month: "long",
+												day: "numeric",
+												year: "numeric"
+											})}
+										</time>
+									</div>
+								</>
+							))}
+						</div>
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</div>
+
+<script>
+	const ulJobList = document.querySelector<HTMLUListElement>("ul#jobsList")
+	const btnJobsUp = document.getElementById("btnJobsUp") as HTMLButtonElement
+	const btnJobsDown = document.getElementById("btnJobsDown") as HTMLButtonElement
+
+	btnJobsUp.addEventListener("click", () => {
+		ulJobList?.scrollBy({ top: -ulJobList?.clientHeight, left: 0, behavior: "smooth" })
+		btnJobsUp.disabled = true
+		btnJobsDown.disabled = false
+	})
+
+	btnJobsDown.addEventListener("click", () => {
+		ulJobList?.scrollBy({ top: ulJobList?.clientHeight, left: 0, behavior: "smooth" })
+		btnJobsDown.disabled = true
+		btnJobsUp.disabled = false
+	})
+</script>

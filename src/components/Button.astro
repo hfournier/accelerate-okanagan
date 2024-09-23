@@ -1,0 +1,25 @@
+---
+type Props = Omit<astroHTML.JSX.ButtonHTMLAttributes, "class"> & {
+	class?: string
+	size?: "sm" | "md" | "lg"
+}
+
+const { class: classList, size = "md", ...attrbs } = Astro.props
+---
+
+<button
+	class:list={[
+		"inline-block self-start bg-primary font-semibold uppercase text-white transition-colors duration-200 hover:bg-neutral-200 hover:text-primary",
+		{ "text-sm": size === "sm" },
+		{ "px-1.5": size === "sm" },
+		{ "py-1": size === "sm" },
+		{ "px-3": size === "md" },
+		{ "py-2": size === "md" },
+		{ "text-lg": size === "lg" },
+		{ "px-6": size === "lg" },
+		{ "py-4": size === "lg" },
+		classList
+	]}
+	[...attrbs]>
+	<slot />
+</button>

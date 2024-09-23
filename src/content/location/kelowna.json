@@ -1,0 +1,113 @@
+{
+	"id": 16,
+	"count": 12,
+	"description": "",
+	"link": "https://accelerateokanagan.com/location/kelowna/",
+	"name": "Kelowna",
+	"slug": "kelowna",
+	"taxonomy": "location",
+	"parent": 0,
+	"meta": [],
+	"acf": [],
+	"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.4 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Kelowna | Jobs | Accelerate Okanagan</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Kelowna | Jobs | Accelerate Okanagan\" />\n<meta property=\"og:url\" content=\"https://accelerateokanagan.com/location/kelowna/\" />\n<meta property=\"og:site_name\" content=\"Accelerate Okanagan\" />\n<meta property=\"og:image\" content=\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"537\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@accelerateok\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://accelerateokanagan.com/location/kelowna/\",\"url\":\"https://accelerateokanagan.com/location/kelowna/\",\"name\":\"Kelowna | Jobs | Accelerate Okanagan\",\"isPartOf\":{\"@id\":\"https://accelerateokanagan.com/#website\"},\"breadcrumb\":{\"@id\":\"https://accelerateokanagan.com/location/kelowna/#breadcrumb\"},\"inLanguage\":\"en-CA\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://accelerateokanagan.com/location/kelowna/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://accelerateokanagan.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Kelowna\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://accelerateokanagan.com/#website\",\"url\":\"https://accelerateokanagan.com/\",\"name\":\"Accelerate Okanagan\",\"description\":\"Tech Business Accelerator Programs\",\"publisher\":{\"@id\":\"https://accelerateokanagan.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://accelerateokanagan.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-CA\"},{\"@type\":\"Organization\",\"@id\":\"https://accelerateokanagan.com/#organization\",\"name\":\"Accelerate Okanagan\",\"url\":\"https://accelerateokanagan.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-CA\",\"@id\":\"https://accelerateokanagan.com/#/schema/logo/image/\",\"url\":\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\",\"contentUrl\":\"https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png\",\"width\":1200,\"height\":537,\"caption\":\"Accelerate Okanagan\"},\"image\":{\"@id\":\"https://accelerateokanagan.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/AccelerateOkanagan/\",\"https://x.com/accelerateok\",\"https://www.instagram.com/accelerateokanagan/\",\"https://ca.linkedin.com/company/accelerate-okanagan\",\"https://www.youtube.com/channel/UCBknJ2HAKnB9nY9XuOM25Ug\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+	"yoast_head_json": {
+		"title": "Kelowna | Jobs | Accelerate Okanagan",
+		"robots": { "index": "noindex", "follow": "follow" },
+		"og_locale": "en_US",
+		"og_type": "article",
+		"og_title": "Kelowna | Jobs | Accelerate Okanagan",
+		"og_url": "https://accelerateokanagan.com/location/kelowna/",
+		"og_site_name": "Accelerate Okanagan",
+		"og_image": [
+			{
+				"width": 1200,
+				"height": 537,
+				"url": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+				"type": "image/png"
+			}
+		],
+		"twitter_card": "summary_large_image",
+		"twitter_site": "@accelerateok",
+		"schema": {
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "CollectionPage",
+					"@id": "https://accelerateokanagan.com/location/kelowna/",
+					"url": "https://accelerateokanagan.com/location/kelowna/",
+					"name": "Kelowna | Jobs | Accelerate Okanagan",
+					"isPartOf": { "@id": "https://accelerateokanagan.com/#website" },
+					"breadcrumb": { "@id": "https://accelerateokanagan.com/location/kelowna/#breadcrumb" },
+					"inLanguage": "en-CA"
+				},
+				{
+					"@type": "BreadcrumbList",
+					"@id": "https://accelerateokanagan.com/location/kelowna/#breadcrumb",
+					"itemListElement": [
+						{
+							"@type": "ListItem",
+							"position": 1,
+							"name": "Home",
+							"item": "https://accelerateokanagan.com/"
+						},
+						{ "@type": "ListItem", "position": 2, "name": "Kelowna" }
+					]
+				},
+				{
+					"@type": "WebSite",
+					"@id": "https://accelerateokanagan.com/#website",
+					"url": "https://accelerateokanagan.com/",
+					"name": "Accelerate Okanagan",
+					"description": "Tech Business Accelerator Programs",
+					"publisher": { "@id": "https://accelerateokanagan.com/#organization" },
+					"potentialAction": [
+						{
+							"@type": "SearchAction",
+							"target": {
+								"@type": "EntryPoint",
+								"urlTemplate": "https://accelerateokanagan.com/?s={search_term_string}"
+							},
+							"query-input": {
+								"@type": "PropertyValueSpecification",
+								"valueRequired": true,
+								"valueName": "search_term_string"
+							}
+						}
+					],
+					"inLanguage": "en-CA"
+				},
+				{
+					"@type": "Organization",
+					"@id": "https://accelerateokanagan.com/#organization",
+					"name": "Accelerate Okanagan",
+					"url": "https://accelerateokanagan.com/",
+					"logo": {
+						"@type": "ImageObject",
+						"inLanguage": "en-CA",
+						"@id": "https://accelerateokanagan.com/#/schema/logo/image/",
+						"url": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+						"contentUrl": "https://accelerateokanagan.com/wp-content/uploads/2021/06/2018-AO-Logo-horizontal.png",
+						"width": 1200,
+						"height": 537,
+						"caption": "Accelerate Okanagan"
+					},
+					"image": { "@id": "https://accelerateokanagan.com/#/schema/logo/image/" },
+					"sameAs": [
+						"https://www.facebook.com/AccelerateOkanagan/",
+						"https://x.com/accelerateok",
+						"https://www.instagram.com/accelerateokanagan/",
+						"https://ca.linkedin.com/company/accelerate-okanagan",
+						"https://www.youtube.com/channel/UCBknJ2HAKnB9nY9XuOM25Ug"
+					]
+				}
+			]
+		}
+	},
+	"_links": {
+		"self": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/location/16" }],
+		"collection": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/location" }],
+		"about": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/taxonomies/location" }],
+		"wp:post_type": [{ "href": "https://accelerateokanagan.com/wp-json/wp/v2/job?location=16" }],
+		"curies": [{ "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }]
+	}
+}

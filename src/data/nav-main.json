@@ -1,0 +1,262 @@
+[
+	{
+		"id": "1",
+		"label": "Entrepreneurs",
+		"url": "#",
+		"content": {
+			"title": "Support for Entrepreneurs",
+			"text": "Whether you are starting out or scaling up, we have resources, in-house experts, and accelerator programs for entrepreneurs who are ready to grow.",
+			"cta": { "label": "Apply Now", "url": "#" }
+		},
+		"subLinks": [
+			{
+				"label": "Startup Basics",
+				"url": "#",
+				"content": {
+					"icon": "startup-basics",
+					"text": "Startup Basics is a self-led online program. Each module is designed to teach entrepreneurial fundamentals needed to transform an idea into a startup.",
+					"cta": { "label": "Get Started", "url": "#" },
+					"image": "@assets/MM_Starup-Basics.jpg"
+				}
+			},
+			{
+				"label": "Venture Validation",
+				"url": "#",
+				"content": {
+					"icon": "venture-validation",
+					"text": "Venture Validation is a 3-month startup intensive. It is designed to teach rapid validation, iteration, and development to early-stage entrepreneurs.",
+					"cta": { "label": "Get Connected", "url": "#" },
+					"image": "@assets/MM_VAP.jpg"
+				}
+			},
+			{
+				"label": "Market Ready",
+				"url": "#",
+				"content": {
+					"icon": "market-ready",
+					"text": "Market Ready is a 3-month intensive design to teach entrepreneurs go-to-market strategy, how to connect with potential customers, and effective product positioning.",
+					"cta": { "label": "Learn to Launch", "url": "#" },
+					"image": "@assets/Market-Ready6.jpg"
+				}
+			},
+			{
+				"label": "Fundable",
+				"url": "#",
+				"content": {
+					"icon": "fundable",
+					"text": "Fundable is an 8-week capital-focused program. It is designed for entrepreneurs who want to increase their understanding of capital-raising pathways and prepare to be investable.",
+					"cta": { "label": "Capital Ready", "url": "#" },
+					"image": "@assets/Fundable1-1.jpg"
+				}
+			},
+			{
+				"label": "Angel Summit",
+				"url": "#",
+				"content": {
+					"icon": "angel-summit",
+					"text": "The Okanagan Angel Summit is an 8-week pitch program designed to educate investors and startups on the investment process through participation. It culminates in a public finale where an investment of up to $200K is placed.",
+					"cta": { "label": "Get Invested", "url": "#" },
+					"image": "@assets/Angel_Summit.jpg"
+				}
+			},
+			{
+				"label": "Threesixty",
+				"url": "#",
+				"content": {
+					"icon": "three-sixty",
+					"text": "Customized engagement to prepare startups for raising a Seed to Series A investment round. ThreeSixty dives deep into growth and risk management, team development, and financial models.",
+					"cta": { "label": "Prepare to Raise", "url": "#" },
+					"image": "@assets/ThreeSixty_img5.jpg"
+				}
+			},
+			{
+				"label": "AccelerateIP",
+				"url": "#",
+				"content": {
+					"icon": "accelerate-ip",
+					"text": "AccelerateIP is an integrated, three-stream, Intellectual Property capacity-building program. Focused on helping startups protect, manage, and leverage their intellectual property.",
+					"cta": { "label": "Protect your IP", "url": "#" },
+					"image": "@assets/Menu_AccelerateIP.jpg"
+				}
+			}
+		]
+	},
+	{
+		"id": "2",
+		"label": "Members",
+		"url": "#",
+		"content": {
+			"title": "Membership Means More",
+			"text": "Get plugged into the Okanagan tech community with Accelerate Okanagan’s membership. Membership is designed to provide resources and support for companies with perks for the founders and employees.",
+			"cta": { "label": "Become a Member", "url": "#" }
+		},
+		"subLinks": [
+			{
+				"label": "Member Networks",
+				"url": "#",
+				"content": {
+					"text": "Get to know the companies in the OKGNtech ecosystem. Our member network is made up of tech companies, innovative businesses, and support organizations.",
+					"cta": { "label": "Explore the Network", "url": "#" },
+					"image": "@assets/Directory_2.jpg"
+				}
+			},
+			{
+				"label": "Partners",
+				"url": "#",
+				"content": {
+					"text": "These organizations are investing their time and dollars into AO and OKGNtech. Meet our core funders, partners, and patrons who help us deliver on our mission to give entrepreneurs the mentorship, connections, and community they need to thrive.",
+					"cta": { "label": "Meet our Partners", "url": "#" },
+					"image": "@assets/MegaNav_image_members-meet-partners.jpg"
+				}
+			},
+			{
+				"label": "Company Membership",
+				"url": "#",
+				"content": {
+					"text": "Company Membership is for all companies building a business, service, or product. Members can access the resume bank, job board, member library, perks, and discounts to Accelerate Okanagan events.",
+					"cta": { "label": "Explore the Benefits", "url": "#" },
+					"image": "@assets/Tech_Company-e1619921984853.jpg"
+				}
+			},
+			{
+				"label": "Supporter Membership",
+				"url": "#",
+				"content": {
+					"text": "Supporter Membership is for all organizations and institutions that are supporting entrepreneurs. Members can access the resume bank, job board, member library, perks, and discounts to Accelerate Okanagan events.",
+					"cta": { "label": "Explore the Benefits", "url": "#" },
+					"image": "@assets/Tech_Supporter.jpg"
+				}
+			}
+		]
+	},
+	{
+		"id": "3",
+		"label": "Jobs",
+		"url": "#",
+		"content": {
+			"title": "Employ Your Potential",
+			"text": "No matter what your business is focused on, people are at the heart of it. The OKGNtech Job Board and Resume Bank make it easy to access the best of the best.",
+			"cta": { "label": "View Job Board", "url": "#" }
+		},
+		"subLinks": [
+			{
+				"label": "View Jobs",
+				"url": "#",
+				"content": {
+					"text": "Our Job Board showcases available open positions from businesses within the Okanagan tech community. Use it to find your next career or showcase your next opportunity.",
+					"cta": { "label": "Open Positions", "url": "#" },
+					"image": "@assets/Fundable1-1.jpg"
+				}
+			},
+			{
+				"label": "Post a Job",
+				"url": "#",
+				"content": {
+					"text": "Finding and recruiting the right talent is critical for any growing business. Have a job opening you need to fill? Share it with the community by posting it on our Job Board.",
+					"cta": { "label": "Post a Job", "url": "#" },
+					"image": "@assets/post-a-job3.jpg"
+				}
+			},
+			{
+				"label": "Post a Resume",
+				"url": "#",
+				"content": {
+					"text": "Looking to share your resume? Upload it to our Resume Bank! All Accelerate Okanagan members have exclusive access to review your resume from there.",
+					"cta": { "label": "Accelerate your Career", "url": "#" },
+					"image": "@assets/Resume_.jpg"
+				}
+			}
+		]
+	},
+	{
+		"id": "4",
+		"label": "Events",
+		"url": "#",
+		"content": {
+			"title": "Time Well Spent",
+			"text": "There is always something happening in the OKGNtech community. Keep an eye on the Accelerate Okanagan events calendar for the latest in workshops, networking events, and conferences.",
+			"cta": { "label": "Events Calendar", "url": "#" }
+		},
+		"subLinks": [
+			{
+				"label": "Explore Events",
+				"url": "#",
+				"content": {
+					"text": "Accelerate your network by spending some time with #OKGNtech. If you are willing, you are welcome.",
+					"cta": { "label": "Check the Calendar", "url": "#" },
+					"image": "@assets/MegaNav-Events.jpg"
+				}
+			},
+			{
+				"label": "Share your Event",
+				"url": "#",
+				"content": {
+					"text": "Have an event you want to share with the community? Feature it on our Events Calendar.",
+					"cta": { "label": "Submit an Event", "url": "#" },
+					"image": "@assets/MegaNav_image_events-share.jpg"
+				}
+			},
+			{
+				"label": "On the Blog",
+				"url": "#",
+				"content": {
+					"text": "Explore more OKGNtech stories, opportunities, and articles on the AO blog.",
+					"cta": { "label": "Read the Blog", "url": "#" },
+					"image": "@assets/All_Jobs.jpg"
+				}
+			}
+		]
+	},
+	{
+		"id": "5",
+		"label": "Workspaces",
+		"url": "#",
+		"content": {
+			"title": "Working The Okanagan Way",
+			"text": "Building a strong community, meeting like-minded people, and access to free coffee are just a few of the benefits of choosing to use Accelerate Okanagan’s coworking spaces.",
+			"cta": { "label": "Find a Workspace", "url": "#" }
+		},
+		"subLinks": [
+			{
+				"label": "Tenancy / Kelowna",
+				"url": "#",
+				"content": {
+					"logo": "@assets/OKGNworks-logo-01-1.png",
+					"text": "Rent a dedicated desk with OKGNworks, a shared workspace located on the second floor of the Kelowna Innovation Centre. This space is purposefully designed with an open floor plan to create collisions and connections for tenants.",
+					"cta": { "label": "Join OKGNworks", "url": "#" },
+					"image": "@assets/OKGNworks.jpg"
+				}
+			},
+			{
+				"label": "Meeting Rooms / Kelowna",
+				"url": "#",
+				"content": {
+					"logo": "@assets/OKGNworks-logo-01-1.png",
+					"text": "Looking for a meeting space in downtown Kelowna? OKGNworks has a variety of rooms available for rent. Each meeting room comes with the resources and space needed to facilitate large and small groups and are available at flexible rates.",
+					"cta": { "label": "Book a Meeting Space", "url": "#" },
+					"image": "@assets/OKGNworks-Mega-Nav-Meeting-Room.png"
+				}
+			},
+			{
+				"label": "Tenancy / Vernon",
+				"url": "#",
+				"content": {
+					"logo": "@assets/TheVIEW_Logo_RGB_horizontal_letterwordmark_black.png",
+					"text": "The Vernon Innovation & Entrepreneur Workspace (The VIEW) is a home base for innovators and entrepreneurs in the North Okanagan. This shared workspace allows for flexible rentals of dedicated desks, private offices, and part-time options.",
+					"cta": { "label": "Explore The View", "url": "#" },
+					"image": "@assets/MegaNav_image_vernon.jpg"
+				}
+			},
+			{
+				"label": "Meeting Rooms / Vernon",
+				"url": "#",
+				"content": {
+					"logo": "@assets/TheVIEW_Logo_RGB_horizontal_letterwordmark_black.png",
+					"text": "Rent a meeting room in downtown Vernon at The VIEW. The Vernon Innovation & Entrepreneur Workspace (The VIEW) offers a diverse selection of spaces available to rent for large or small team meetings at hourly, half-day or full-day rates.",
+					"cta": { "label": "Book a Meeting Room", "url": "#" },
+					"image": "@assets/The-VIEW-Mega-Nav-Lounge.png"
+				}
+			}
+		]
+	}
+]

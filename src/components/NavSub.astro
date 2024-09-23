@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon/components"
+---
+
+<nav aria-label="Secondary Navigation">
+	<ul
+		class="flex items-center gap-6 font-inter text-[0.75rem] font-semibold uppercase text-neutral-400">
+		<li class="hover:text-primary"><a href="#">OKGO</a></li>
+		<li class="hover:text-primary"><a href="#">The View</a></li>
+		<li class="hover:text-primary"><a href="#">OKGNtech</a></li>
+		<li class="h-full w-0.5 bg-neutral-400">&nbsp;</li>
+		<li class="hover:text-primary">
+			<a class="flex items-center gap-2" href="#">
+				<span>Sign In</span>
+				<Icon class="size-4" name="mdi:user" />
+			</a>
+		</li>
+	</ul>
+</nav>

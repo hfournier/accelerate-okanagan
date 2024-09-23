@@ -1,0 +1,34 @@
+---
+import { Icon } from "astro-icon/components"
+import { getCollection } from "astro:content"
+import NavDrop from "./NavDrop.astro"
+
+const links = await getCollection("nav-main")
+---
+
+<nav class="flex w-full items-start justify-between" aria-label="Primary Navigation">
+	<ul class="flex grow items-center justify-center">
+		{
+			links.map((link) => (
+				<li class="group/mainlink">
+					<a
+						class="flex items-center gap-1 px-2 pb-8 font-inter text-sm font-semibold uppercase text-neutral-700 group-hover/mainlink:text-primary"
+						href={link.data.url}>
+						{link.data.label}
+						<Icon
+							class="size-5 text-primary transition-transform duration-300 group-hover/mainlink:rotate-180"
+							name="mdi:chevron-down"
+						/>
+					</a>
+					<NavDrop link={link.data} />
+				</li>
+			))
+		}
+	</ul>
+	<ul class="flex items-center gap-6 font-inter text-sm font-semibold uppercase text-neutral-700">
+		<li class="hover:text-primary"><a href="#">Contact</a></li>
+		<li class="hover:text-primary">
+			<a href="#"><Icon class="size-4 text-primary" name="mdi:search" /></a>
+		</li>
+	</ul>
+</nav>

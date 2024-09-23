@@ -1,0 +1,18 @@
+---
+import { Icon } from "astro-icon/components"
+import NavSub from "./NavSub.astro"
+import NavMain from "./NavMain.astro"
+---
+
+<header class="mx-auto w-full max-w-[1440px] px-[3.75rem] pt-8">
+	<div class="relative flex justify-between px-[3.75rem] pt-8">
+		<a href="#">
+			<span class="sr-only">Accelerate Okanagan</span>
+			<Icon class="h-[50px] w-48" name="logo" />
+		</a>
+		<div class="flex w-full flex-col items-end gap-4">
+			<NavSub />
+			<NavMain />
+		</div>
+	</div>
+</header>

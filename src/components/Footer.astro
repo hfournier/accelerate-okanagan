@@ -1,0 +1,144 @@
+---
+import { Icon } from "astro-icon/components"
+import Button from "./Button.astro"
+---
+
+<footer class="bg-neutral-100">
+	<div class="mx-auto grid w-full max-w-[1440px] grid-cols-[3fr_2fr]">
+		<div class="flex flex-col justify-between gap-12 bg-neutral-100 p-12">
+			<div class="flex items-start justify-between">
+				<Icon class="h-14 w-full max-w-fit" name="logo" />
+				<div class="flex items-center gap-6">
+					<a class="hover:text-primary" href="https://www.facebook.com/AccelerateOkanagan/"
+						><span class="sr-only"></span><Icon
+							class="size-6"
+							name="fa6-brands:facebook"
+							aria-hidden="true"
+						/></a
+					>
+					<a class="hover:text-primary" href="https://www.instagram.com/accelerateokanagan/"
+						><span class="sr-only"></span><Icon
+							class="size-6"
+							name="fa6-brands:instagram"
+							aria-hidden="true"
+						/></a
+					>
+					<a
+						class="hover:text-primary"
+						href="https://www.youtube.com/channel/UCBknJ2HAKnB9nY9XuOM25Ug"
+						><span class="sr-only"></span><Icon
+							class="size-6"
+							name="fa6-brands:youtube"
+							aria-hidden="true"
+						/></a
+					>
+					<a class="hover:text-primary" href="https://twitter.com/accelerateok"
+						><span class="sr-only"></span><Icon
+							class="size-6"
+							name="fa6-brands:x-twitter"
+							aria-hidden="true"
+						/></a
+					>
+					<a class="hover:text-primary" href="https://www.linkedin.com/company/accelerate-okanagan"
+						><span class="sr-only"></span><Icon
+							class="size-6"
+							name="fa6-brands:linkedin"
+							aria-hidden="true"
+						/></a
+					>
+				</div>
+			</div>
+			<div class="grid grid-cols-3 gap-14">
+				<div class="border-t border-neutral-800">
+					<div class="py-4 font-semibold">About</div>
+					<ul class="flex flex-col">
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Mission</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Team</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Mentors</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Board</a>
+						</li>
+					</ul>
+				</div>
+				<div class="border-t border-neutral-800">
+					<div class="py-4 font-semibold">Community</div>
+					<ul class="flex flex-col">
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Blog</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Events</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Member Directory</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Economic Impact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="border-t border-neutral-800">
+					<div class="py-4 font-semibold">Media</div>
+					<ul class="flex flex-col">
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Press Releases</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Brand Guide</a>
+						</li>
+						<li class="">
+							<a class="text-sm hover:text-primary" href="#">Inquires</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="space-y-6 bg-white p-12">
+			<div class="flex flex-col gap-0">
+				<div class="-mb-1 text-sm font-semibold uppercase">Newsletter</div>
+				<div class="font-playfair text-3xl">Get The Latest News</div>
+			</div>
+			<form class="flex flex-col gap-6">
+				<div class="flex gap-12">
+					<input
+						class="border-b-2 border-neutral-400"
+						type="text"
+						name="firstName"
+						placeholder="First Name"
+					/>
+					<input
+						class="border-b-2 border-neutral-400"
+						type="text"
+						name="lastName"
+						placeholder="Last Name"
+					/>
+				</div>
+				<input
+					class="border-b-2 border-neutral-400"
+					type="email"
+					name="email"
+					placeholder="Email address"
+				/>
+				<div class="text-[0.75rem] text-neutral-500">
+					* By Submitting this form you are agree to receive communication from Accelerate Okanagan.
+					We respect your privacy and you can unsubscribe at any time.
+				</div>
+				<Button type="submit">Submit</Button>
+			</form>
+		</div>
+	</div>
+	<div class="w-full bg-neutral-800">
+		<div class="mx-auto flex max-w-[1440px] items-center justify-between px-8 py-4">
+			<div class="text-sm uppercase text-neutral-300">&copy; Accelerate Okanagan 2024</div>
+			<a class="text-sm uppercase text-neutral-300 no-underline hover:text-white" href="#"
+				>Privacy Policy</a
+			>
+		</div>
+	</div>
+</footer>

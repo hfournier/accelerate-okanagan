@@ -20,6 +20,6 @@ const { class: classList, size = "md", ...attrbs } = Astro.props
 		{ "py-4": size === "lg" },
 		classList
 	]}
-	[...attrbs]>
+	{...attrbs}>
 	<slot />
 </button>

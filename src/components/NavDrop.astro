@@ -48,6 +48,7 @@ const { link } = Astro.props
 									class="h-12 w-full max-w-fit"
 									src={subLink.content.logo}
 									alt={subLink.label}
+									width={250}
 								/>
 							)}
 							<div class="h-[3px] w-8 bg-primary" />
@@ -59,7 +60,12 @@ const { link } = Astro.props
 								<Icon class="size-6 text-primary" name="mdi:chevron-double-right" />
 							</a>
 						</div>
-						<Image class="h-full object-cover" src={subLink.content.image} alt={subLink.label} />
+						<Image
+							class="h-full object-cover"
+							src={subLink.content.image}
+							alt={subLink.label}
+							width={330}
+						/>
 					</div>
 				</li>
 			))

@@ -33,13 +33,15 @@ const getLocation = async (job: CollectionEntry<"job">) => {
 			id="btnJobsUp"
 			type="button"
 			disabled>
-			<Icon class="size-8" name="mdi:chevron-up" />
+			<span class="sr-only">Scroll Up</span>
+			<Icon class="size-8" name="mdi:chevron-up" aria-hidden="true" />
 		</button>
 		<button
 			class="rounded-full border-2 border-neutral-100 p-3 text-primary transition-colors duration-200 enabled:hover:border-primary enabled:hover:bg-primary enabled:hover:text-white disabled:text-neutral-100"
 			id="btnJobsDown"
 			type="button">
-			<Icon class="size-8" name="mdi:chevron-down" />
+			<span class="sr-only">Scroll Down</span>
+			<Icon class="size-8" name="mdi:chevron-down" aria-hidden="true" />
 		</button>
 	</div>
 	<ul class="flex flex-col gap-7 divide-y divide-neutral-200 overflow-y-hidden px-4" id="jobsList">
@@ -67,7 +69,11 @@ const getLocation = async (job: CollectionEntry<"job">) => {
 														<>
 															<span class="text-primary">|</span>
 															<div class="flex gap-2">
-																<Icon class="flex size-4 gap-4" name="mdi:map-marker" />
+																<Icon
+																	class="flex size-4 gap-4"
+																	name="mdi:map-marker"
+																	aria-hidden="true"
+																/>
 																<div class="group-hover:text-primary">{location?.name}</div>
 															</div>
 														</>

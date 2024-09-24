@@ -1,5 +1,5 @@
 ---
-import { getImage } from "astro:assets"
+import { getImage, Image } from "astro:assets"
 import hero from "@assets/Hero-1920x1080-1.jpg"
 import { Icon } from "astro-icon/components"
 import ButtonLink from "./ButtonLink.astro"
@@ -7,12 +7,14 @@ import ButtonLink from "./ButtonLink.astro"
 const bgHero = await getImage({ src: hero, quality: "mid" })
 ---
 
-<section class="relative min-h-dvh w-full">
-	<div
-		class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-		style=`background-image: url('${bgHero.src}');`>
-	</div>
-	<div class="mx-auto flex h-full max-w-[1440px] flex-col justify-between p-14">
+<section class="relative grid min-h-dvh w-full">
+	<Image
+		class="absolute inset-0 h-full w-full object-cover opacity-40"
+		src={hero}
+		alt="Crowd of people networking at an event"
+		loading="eager"
+	/>
+	<div class="flex h-full max-w-[1440px] flex-col justify-between px-14 pb-3 pt-24">
 		<div class="flex grow items-center">
 			<div class="w-full max-w-fit space-y-6 bg-white/90 p-14 backdrop-opacity-50">
 				<div class="font-playfair text-4xl text-neutral-900">
@@ -28,8 +30,8 @@ const bgHero = await getImage({ src: hero, quality: "mid" })
 		</div>
 		<div class="flex gap-2">
 			<div class="max-w-64 bg-white/90 p-6 backdrop-opacity-50">
-				<a class="flex flex-col gap-2 hover:text-primary" href="#">
-					<div class="font-rajdhani text-lg font-bold uppercase leading-tight">
+				<a class="flex flex-col gap-1.5 hover:text-primary" href="#">
+					<div class="font-rajdhani text-lg font-bold uppercase leading-[1.125]">
 						Okanagan Tech Hits $4.98M Economic Impact
 					</div>
 					<p class="text-sm text-neutral-600">
@@ -44,12 +46,12 @@ const bgHero = await getImage({ src: hero, quality: "mid" })
 				</a>
 			</div>
 			<div class="max-w-64 bg-white/90 p-6 backdrop-opacity-50">
-				<a class="flex flex-col gap-2 hover:text-primary" href="#">
-					<div class="leading-tightuppercase font-rajdhani text-lg font-bold">
-						Okanagan Tech Hits $4.98M Economic Impact
+				<a class="flex flex-col gap-1.5 hover:text-primary" href="#">
+					<div class="font-rajdhani text-lg font-bold uppercase leading-[1.125]">
+						Stay Up To Date on OKGNtech News
 					</div>
 					<p class="text-sm text-neutral-600">
-						Read the Latest Tech Sector Report<span
+						Visit the AO Blog for the latest stories and articles<span
 							><Icon
 								class="inline-block size-4 text-primary"
 								name="mdi:chevron-double-right"
@@ -60,12 +62,12 @@ const bgHero = await getImage({ src: hero, quality: "mid" })
 				</a>
 			</div>
 			<div class="max-w-64 bg-white/90 p-6 backdrop-opacity-50">
-				<a class="flex flex-col gap-2 hover:text-primary" href="#">
-					<div class="font-rajdhani text-lg font-bold uppercase leading-tight">
-						Okanagan Tech Hits $4.98M Economic Impact
+				<a class="flex flex-col gap-1.5 hover:text-primary" href="#">
+					<div class="font-rajdhani text-lg font-bold uppercase leading-[1.125]">
+						Become an Accelerate Okanagan Member
 					</div>
 					<p class="text-sm text-neutral-600">
-						Read the Latest Tech Sector Report<span
+						Join the member network and access all the perks<span
 							><Icon
 								class="inline-block size-4 text-primary"
 								name="mdi:chevron-double-right"

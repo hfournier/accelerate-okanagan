@@ -4,11 +4,11 @@ import Button from "./Button.astro"
 ---
 
 <footer class="bg-neutral-100">
-	<div class="mx-auto grid w-full max-w-[1440px] grid-cols-[3fr_2fr]">
+	<div class="mx-auto grid w-full max-w-[1440px] md:grid-cols-[3fr_2fr]">
 		<div class="flex flex-col justify-between gap-12 bg-neutral-100 p-12">
-			<div class="flex items-start justify-between">
+			<div class="flex flex-col items-start justify-between gap-8 sm:flex-row sm:gap-0">
 				<Icon class="h-14 w-full max-w-fit" name="logo" aria-label="Accelerate Okanagan logo" />
-				<div class="flex items-center gap-6">
+				<div class="flex items-center gap-10 sm:gap-6">
 					<a class="hover:text-primary" href="https://www.facebook.com/AccelerateOkanagan/"
 						><span class="sr-only">Facebook</span><Icon
 							class="size-6"
@@ -48,7 +48,7 @@ import Button from "./Button.astro"
 					>
 				</div>
 			</div>
-			<div class="grid grid-cols-3 gap-14">
+			<div class="grid gap-14 md:grid-cols-3">
 				<div class="border-t border-neutral-800">
 					<div class="py-4 font-semibold">About</div>
 					<ul class="flex flex-col">
@@ -105,7 +105,7 @@ import Button from "./Button.astro"
 				<div class="font-playfair text-3xl">Get The Latest News</div>
 			</div>
 			<form class="flex flex-col gap-6">
-				<div class="flex gap-12">
+				<div class="flex flex-col gap-6 sm:flex-row sm:gap-12">
 					<input
 						class="border-b-2 border-neutral-400"
 						type="text"
@@ -134,10 +134,13 @@ import Button from "./Button.astro"
 		</div>
 	</div>
 	<div class="w-full bg-neutral-800">
-		<div class="mx-auto flex max-w-[1440px] items-center justify-between px-8 py-4">
-			<div class="text-sm uppercase text-neutral-300">&copy; Accelerate Okanagan 2024</div>
-			<a class="text-sm uppercase text-neutral-300 no-underline hover:text-white" href="#"
-				>Privacy Policy</a
+		<div class="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-4 sm:px-8">
+			<div class="text-[0.75rem] uppercase text-neutral-300 sm:text-sm">
+				&copy; Accelerate Okanagan 2024
+			</div>
+			<a
+				class="text-[0.75rem] uppercase text-neutral-300 no-underline hover:text-white sm:text-sm"
+				href="#">Privacy Policy</a
 			>
 		</div>
 	</div>

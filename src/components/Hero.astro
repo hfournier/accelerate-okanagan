@@ -14,21 +14,20 @@ const bgHero = await getImage({ src: hero, quality: "mid" })
 		alt="Crowd of people networking at an event"
 		loading="eager"
 	/>
-	<div class="flex h-full max-w-[1440px] flex-col justify-between px-14 pb-3 pt-24">
+	<div
+		class="mx-auto flex h-full w-full max-w-[1440px] flex-col justify-between px-12 pb-3 pt-12 md:px-14 md:pt-24">
 		<div class="flex grow items-center">
-			<div class="w-full max-w-fit space-y-6 bg-white/90 p-14 backdrop-opacity-50">
-				<div class="font-playfair text-4xl text-neutral-900">
-					<div class="">We give entrepreneurs the</div>
-					<div class="">mentorship, connections, and</div>
-					<div class="">community they need to</div>
-					<div class="">build technology-driven</div>
-					<div class="">ventures.</div>
+			<div
+				class="w-full max-w-fit space-y-6 bg-white/90 p-6 backdrop-opacity-50 md:w-3/4 md:p-14 lg:w-3/5 xl:w-[45%]">
+				<div class="text-balance font-playfair text-2xl text-neutral-900 md:text-5xl lg:text-4xl">
+					We give entrepreneurs the mentorship, connections, and community they need to build
+					technology-driven ventures
 				</div>
 				<div class="h-[3px] w-8 bg-primary"></div>
 				<ButtonLink href="#">Join Us</ButtonLink>
 			</div>
 		</div>
-		<div class="flex gap-2">
+		<div class="flex flex-col gap-2 md:flex-row">
 			<div class="max-w-64 bg-white/90 p-6 backdrop-opacity-50">
 				<a class="flex flex-col gap-1.5 hover:text-primary" href="#">
 					<div class="font-rajdhani text-lg font-bold uppercase leading-[1.125]">

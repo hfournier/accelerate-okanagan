@@ -12,9 +12,10 @@ const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 
 <BaseLayout>
 	<main>
-		<section class="mx-auto my-40 grid max-w-[1070px] grid-cols-3 gap-12">
+		<section
+			class="mx-auto my-40 grid max-w-[1070px] grid-cols-1 gap-12 p-12 md:grid-cols-3 md:p-0">
 			<div class="flex flex-col gap-6">
-				<h2 class="text-5xl">Programs</h2>
+				<h2 class="text-4xl md:text-5xl">Programs</h2>
 				<div class="h-[3px] w-8 bg-primary"></div>
 				<p class="text-neutral-500">
 					We provide mentorship and coaching for startups and growth-stage companies. Each stage of
@@ -30,7 +31,7 @@ const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 				</p>
 			</div>
 			<div class="flex flex-col gap-6">
-				<h2 class="text-5xl">Membership</h2>
+				<h2 class="text-4xl md:text-5xl">Membership</h2>
 				<div class="h-[3px] w-8 bg-primary"></div>
 				<p class="text-neutral-500">
 					Together we are growing a thriving entrepreneurial ecosystem that will inspire innovation
@@ -46,7 +47,7 @@ const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 				</p>
 			</div>
 			<div class="flex flex-col gap-6">
-				<h2 class="text-5xl">Articles</h2>
+				<h2 class="text-4xl md:text-5xl">Articles</h2>
 				<div class="h-[3px] w-8 bg-primary"></div>
 				<p class="text-neutral-500">
 					Celebrating local entrepreneurs, spotlights on mentors, program details, press releases
@@ -62,8 +63,8 @@ const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 				</p>
 			</div>
 		</section>
-		<section class="mx-auto my-40 flex max-w-[1070px]">
-			<div class="flex w-1/2 flex-col gap-8 bg-neutral-100 p-12">
+		<section class="mx-auto my-40 flex max-w-[1070px] flex-col md:flex-row">
+			<div class="flex flex-col gap-8 bg-neutral-100 p-12 md:w-1/2">
 				<h2 class="text-5xl">Okanagan Tech Economic Impact</h2>
 				<div class="h-[3px] w-8 bg-primary"></div>
 				<p>
@@ -73,20 +74,29 @@ const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 				</p>
 				<ButtonLink href="#" size="lg">Read All About It</ButtonLink>
 			</div>
-			<div class="relative w-1/2">
+			<div class="relative md:w-1/2">
 				<Image class="w-full object-cover" src={brealake} alt="brealake" width={535} />
 				<svg
-					class="absolute inset-y-0 left-0 h-full fill-neutral-100"
+					class="absolute inset-y-0 -left-0.5 hidden h-full fill-neutral-100 md:block"
 					viewBox="0 0 80.5 580"
 					xmlns="http://www.w3.org/2000/svg"
 					aria-hidden="true"
 					><path d="M80.5,0H0v580h80.5C32.4,494.2,5,395.3,5,290S32.4,85.8,80.5,0z"></path></svg
 				>
+				<svg
+					class="absolute inset-x-0 -top-0.5 w-full fill-neutral-100 md:hidden"
+					viewBox="100 258.362 600 83.275"
+					xmlns="http://www.w3.org/2000/svg"
+					><path
+						d="M700,341.638v-83.275H100v83.275c88.759-49.758,191.069-78.103,300-78.103
+					C508.932,263.535,611.241,291.879,700,341.638z"
+					></path></svg
+				>
 			</div>
 		</section>
-		<section class="mx-auto my-40 flex max-w-[1070px]">
-			<div class="flex w-1/3 flex-col gap-7">
-				<h2 class="text-7xl">#OKGNtech is hiring.</h2>
+		<section class="mx-auto my-40 flex max-w-[1070px] flex-col md:flex-row">
+			<div class="flex flex-col gap-7 p-12 md:w-1/3 md:p-0">
+				<h2 class="text-5xl sm:text-6xl md:text-7xl">#OKGNtech is hiring.</h2>
 				<div class="h-[3px] w-8 bg-primary"></div>
 				<p class="leading-snug">
 					Find your dream job. Our Job Board showcases available positions from businesses within
@@ -96,16 +106,16 @@ const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 				</p>
 				<ButtonLink href="#" size="lg">View the Job Board</ButtonLink>
 			</div>
-			<div class="w-2/3">
+			<div class="md:w-2/3">
 				<Jobs />
 			</div>
 		</section>
 		<div class="mt-40 bg-neutral-100">
 			<section
-				class="mx-auto flex max-w-[1440px] bg-[size:75%] bg-left bg-no-repeat"
+				class="mx-auto flex max-w-[1440px] flex-col bg-[size:150%] bg-top bg-no-repeat md:flex-row md:bg-[size:75%] md:bg-left"
 				style=`background-image: url('${bgGlobalFeature.src}');`>
-				<div class="flex w-1/2 flex-col gap-8 bg-primary/90 p-24">
-					<h2 class="text-[2.75rem] leading-tight text-white">
+				<div class="flex flex-col gap-8 bg-primary/90 p-12 md:w-1/2 md:p-24">
+					<h2 class="text-balance text-3xl leading-tight text-white sm:text-4xl md:text-[2.75rem]">
 						Plug into the Okanagan's tech community with Accelerate Okanagan's membership.
 					</h2>
 					<div class="h-[3px] w-8 bg-neutral-900"></div>
@@ -116,14 +126,23 @@ const bgGlobalFeature = await getImage({ src: global_feature, quality: "mid" })
 						<Icon class="size-6 text-white" name="mdi:chevron-double-right" aria-hidden="true" />
 					</a>
 				</div>
-				<div class="relative w-1/2">
+				<div class="relative md:w-1/2">
 					<Image class="h-full w-full object-cover" src={global_feature} alt="Global Feature" />
 					<svg
-						class="absolute inset-y-0 left-0 h-full fill-primary/90"
+						class="absolute inset-y-0 -left-0.5 hidden h-full fill-primary/90 md:block"
 						viewBox="0 0 80.5 580"
 						xmlns="http://www.w3.org/2000/svg"
 						aria-hidden="true"
 						><path d="M80.5,0H0v580h80.5C32.4,494.2,5,395.3,5,290S32.4,85.8,80.5,0z"></path></svg
+					>
+					<svg
+						class="absolute inset-x-0 top-0 w-full fill-primary/90 md:hidden"
+						viewBox="100 258.362 600 83.275"
+						xmlns="http://www.w3.org/2000/svg"
+						><path
+							d="M700,341.638v-83.275H100v83.275c88.759-49.758,191.069-78.103,300-78.103
+					C508.932,263.535,611.241,291.879,700,341.638z"
+						></path></svg
 					>
 				</div>
 			</section>

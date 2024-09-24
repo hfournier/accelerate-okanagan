@@ -6,7 +6,7 @@ import NavDrop from "./NavDrop.astro"
 const links = await getCollection("nav-main")
 ---
 
-<nav class="flex w-full items-start justify-between" aria-label="Primary Navigation">
+<nav class="hidden w-full items-start justify-between md:flex" aria-label="Primary Navigation">
 	<ul class="flex grow items-center justify-center">
 		{
 			links.map((link) => (
